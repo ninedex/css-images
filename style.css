@@ -14,9 +14,32 @@
 } */
 
 /* Centering Images */
-img {
+/* img {
   width: 500px;
   height: 300px;
   display: block;
   margin: auto;
+} */
+
+/* background-image */
+/* body {
+  background-image: url(./images/super-bike.jpg);
+} */
+/* background repeat */
+/* body {
+  font-size: xx-large;
+  background-image: url(./images/super-bike.jpg);
+  background-attachment: fixed;
+} */
+
+/* background position */
+/* body {
+  background-image: url(./images/small-bike.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left bottom;
+} */
+/* short hand position of background image */
+body {
+  background: #ffffff url(./images/small-bike.jpg) no-repeat top right;
 }
